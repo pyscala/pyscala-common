@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pyscala-common" />
+        <module name="pyscala-dingtalk-chatbot" />
+        <module name="pyscala-spider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="pyscala-common" target="1.5" />
+      <module name="pyscala-dingtalk-chatbot" target="1.5" />
+      <module name="pyscala-spider" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
