@@ -19,7 +19,7 @@ public class BaseModel implements Serializable {
     protected Long id = -1l;
 
     @Column(nullable = false, updatable = false)
-    protected Date created;
+    protected Date created=new Date();
 
     @PrePersist
     protected void onCreate() {

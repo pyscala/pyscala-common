@@ -3,7 +3,7 @@ package com.learner.util;
 /**
  * Created by liufangliang on 2018/5/11.
  */
-public class TransCode {
+public class StringUtils {
 
     /**
      *

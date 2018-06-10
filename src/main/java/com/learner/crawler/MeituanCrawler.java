@@ -5,8 +5,6 @@ import com.learner.spider.RespContext;
 import com.learner.spider.Spider;
 import com.learner.spider.SpiderManager;
 import com.learner.util.ContextUtil;
-import com.learner.util.FileUtil;
-import com.learner.util.TransCode;
 
 /**
  * Created by liufangliang on 2018/5/20.
@@ -23,7 +21,7 @@ public class MeituanCrawler extends AbstractCrawler {
 //            @Override
 //            public void afterRequest(RespContext response) {
 //                String cont=ContextUtil.getString(response);
-//                log.info(TransCode.unicodeToUtf8(cont));
+//                log.info(StringUtils.unicodeToUtf8(cont));
 //            }
 //        });
 

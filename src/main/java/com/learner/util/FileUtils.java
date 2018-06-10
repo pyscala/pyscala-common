@@ -15,7 +15,7 @@ import java.util.List;
  * Created by liufangliang on 2018/1/26.
  */
 @Slf4j
-public class FileUtil {
+public class FileUtils {
     /**
      * 从文件中读出字节数组
      * @param filePath
@@ -137,9 +137,9 @@ public class FileUtil {
 
     public static void main(String[] args) {
         try{
-//            String str=FileUtil.readFile("/Users/liufangliang/PycharmProjects/spider/spider/observer.py");
+//            String str=FileUtils.readFile("/Users/liufangliang/PycharmProjects/spider/spider/observer.py");
 //            System.out.println(new String(str));
-//            FileUtil.writeByteToFile("/Users/liufangliang/Pictures/21513154760_.pic_thumb2.java",str.getBytes());
+//            FileUtils.writeByteToFile("/Users/liufangliang/Pictures/21513154760_.pic_thumb2.java",str.getBytes());
         }catch (Exception e){
             e.printStackTrace();
         }

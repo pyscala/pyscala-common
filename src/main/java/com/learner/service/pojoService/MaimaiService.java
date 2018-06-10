@@ -1,4 +1,4 @@
-package com.learner.service;
+package com.learner.service.pojoService;
 
 import com.learner.entity.model.MaimaiUser;
 import com.learner.service.baseService.IBaseService;
