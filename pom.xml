@@ -223,7 +223,7 @@
         <profile>
             <id>dev</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
                 <property>
                     <name>common.env</name>
                     <value>DEV</value>
@@ -246,7 +246,7 @@
         <profile>
             <id>prod</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
                 <property>
                     <name>common.prod</name>
                     <value>PROD</value>
