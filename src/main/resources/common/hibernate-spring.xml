@@ -38,13 +38,13 @@
         <property name="logAbandoned" value="true" /> <!-- 关闭abanded连接时输出错误日志 -->
     </bean>
 
-    <!--<bean id="dynamicDataSource" class="com.cashbus.common.util.DynamicDataSource">-->
+    <!--<bean id="dynamicDataSource" class="com.update.common.util.DynamicDataSource">-->
         <!--<property name="targetDataSources">-->
             <!--<map key-type="java.lang.String">-->
                 <!--<entry value-ref="jdDataSource" key="jdDataSource" ></entry>-->
                 <!--<entry value-ref="dataSource" key="dataSource"></entry>-->
                 <!--<entry value-ref="metaDataSource" key="metaDataSource"></entry>-->
-                <!--<entry value-ref="cashbus_mercurybase" key="cashbus_mercurybase"></entry>-->
+                <!--<entry value-ref="update" key="update"></entry>-->
             <!--</map>-->
         <!--</property>-->
         <!--<property name="defaultTargetDataSource" ref="dataSource">-->
